@@ -1,0 +1,32 @@
+<xr-scene ar-system="modes:Plane Marker; planeMode: 1" bind:ready="handleReady" bind:ar-ready="handleARReady" render-system="alpha:true">
+  <!-- vio + marker 模式下 planeMode 需设置为 1 (只允许水平面识别) -->
+  <xr-assets bind:loaded="handleAssetsLoaded">
+    <xr-asset-load type="gltf" asset-id="anchor" src="https://s3.cn-east-2.jdcloud-oss.com/pgv-public/ar-plane-marker.glb" />
+    <xr-asset-load type="gltf" asset-id="gltf-item" src="https://s3.cn-east-2.jdcloud-oss.com/pgv-public/wayzoom/shoushu.glb" />
+  </xr-assets>
+  <!-- marker 会动态创建并放在root下 -->
+  <xr-shadow id="root"></xr-shadow>
+  <xr-node>
+    <!-- plane tracker -->
+    <xr-ar-tracker mode="Plane" wx:if="{{markerMatch}}">
+      <xr-gltf model="anchor"></xr-gltf>
+    </xr-ar-tracker>
+    <xr-node node-id="setitem" visible="false">
+      <!-- <xr-light type="ambient" color="1 1 1" intensity="1" cast-shadow/>
+<xr-light type="directional" rotation="40 70 0" color="1 1 1" intensity="3" cast-shadow /> -->
+
+<xr-light type="ambient" color="1 1 1" intensity="1"/>
+    <xr-light type="directional" rotation="40 90 0" color="1 1 1" intensity="3" cast-shadow/>
+    <!-- <xr-light type="ambient" color="1 1 1" intensity="1" />
+<xr-light type="directional" rotation="40 70 0" color="1 1 1" intensity="3" cast-shadow /> -->
+      <xr-gltf id="gltf-item-1" cast-shadow model="gltf-item" position="0 -0.2 0" rotation="0 270 0" scale="0.1 0.1 0.1" cube-shape bind:touch-shape="handleTouchModel"></xr-gltf>
+      <xr-mesh
+  position="0 0 0" scale="4 1 4" receive-shadow
+  geometry="plane" uniforms="u_baseColorFactor:0.4 0.6 0.8 0.5" states="alphaMode:BLEND"
+/>
+    </xr-node>
+    <xr-camera id="camera" node-id="camera" clear-color="0 0 0 0" background="ar" is-ar-camera></xr-camera>
+  </xr-node>
+  <xr-node node-id="lights">
+  </xr-node>
+</xr-scene>

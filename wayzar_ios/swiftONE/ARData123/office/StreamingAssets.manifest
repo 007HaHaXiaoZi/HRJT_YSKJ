@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 685521243
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ardebugmenu
+      Dependencies: {}
+    Info_1:
+      Name: data
+      Dependencies: {}
+    Info_2:
+      Name: model/office
+      Dependencies: {}

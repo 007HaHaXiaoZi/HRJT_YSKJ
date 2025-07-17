@@ -1,0 +1,13 @@
+source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
+platform :ios, '13.0'
+
+target 'swiftONE' do
+pod 'ZipArchive', '>= 1.4.0'
+pod 'Toast', '~> 4.0.0'
+pod 'AMapLocation-NO-IDFA' #无IDFA版定位 SDK
+pod 'AMap3DMap-NO-IDFA'
+pod 'WechatOpenSDK'
+pod 'Bugly'
+pod 'AWSCore', git: 'https://github.com/ZHCliang/aws-sdk-ios.git'
+pod 'AWSS3', git: 'https://github.com/ZHCliang/aws-sdk-ios.git'
+end

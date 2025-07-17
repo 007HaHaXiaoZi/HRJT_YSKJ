@@ -1,0 +1,62 @@
+PODS:
+  - AMap3DMap-NO-IDFA (8.1.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.9)
+  - AMapFoundation-NO-IDFA (1.6.9)
+  - AMapLocation-NO-IDFA (2.8.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.9)
+  - AWSCore (2.8.1)
+  - AWSS3 (2.8.1):
+    - AWSCore (= 2.8.1)
+  - Bugly (2.5.90)
+  - Toast (4.0.0)
+  - WechatOpenSDK (1.8.7.1)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - AMap3DMap-NO-IDFA
+  - AMapLocation-NO-IDFA
+  - AWSCore (from `https://github.com/ZHCliang/aws-sdk-ios.git`)
+  - AWSS3 (from `https://github.com/ZHCliang/aws-sdk-ios.git`)
+  - Bugly
+  - Toast (~> 4.0.0)
+  - WechatOpenSDK
+  - ZipArchive (>= 1.4.0)
+
+SPEC REPOS:
+  https://gitee.com/mirrors/CocoaPods-Specs.git:
+    - AMap3DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - Bugly
+    - Toast
+    - WechatOpenSDK
+    - ZipArchive
+
+EXTERNAL SOURCES:
+  AWSCore:
+    :git: https://github.com/ZHCliang/aws-sdk-ios.git
+  AWSS3:
+    :git: https://github.com/ZHCliang/aws-sdk-ios.git
+
+CHECKOUT OPTIONS:
+  AWSCore:
+    :commit: 4201e5ef57dafd9565176557bbad02c057ca1648
+    :git: https://github.com/ZHCliang/aws-sdk-ios.git
+  AWSS3:
+    :commit: 4201e5ef57dafd9565176557bbad02c057ca1648
+    :git: https://github.com/ZHCliang/aws-sdk-ios.git
+
+SPEC CHECKSUMS:
+  AMap3DMap-NO-IDFA: 4ae222a9d60a094f9517e12d25ee3491ccb02230
+  AMapFoundation-NO-IDFA: cc2ec7a2828ef292358ad594b7ee0ae21a7f097b
+  AMapLocation-NO-IDFA: 9d7ec9b052405356600b59fe0a9a65261bacc54e
+  AWSCore: f17db38a5f8bceb217a19d58d8755bbb6f5ddb3c
+  AWSS3: 7b92a900fa54ce386e562d81c9d51724e70178a0
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: c32bb12f1801def287cf4fecdf4627a25d8a1b83
+
+COCOAPODS: 1.12.0

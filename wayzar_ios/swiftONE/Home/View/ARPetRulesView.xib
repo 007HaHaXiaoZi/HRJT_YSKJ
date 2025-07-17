@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ARPetRulesView">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uc9-7I-vXE">
+                    <rect key="frame" x="0.0" y="830" width="428" height="82"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rdj-0C-Snb" customClass="UIButton">
+                            <rect key="frame" x="30" y="20" width="42" height="42"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKu-gG-1Ru">
+                                    <rect key="frame" x="13.666666666666664" y="8.333333333333373" width="15" height="25.666666666666671"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="ic_maker_g.png"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="WKu-gG-1Ru" firstAttribute="centerY" secondItem="Rdj-0C-Snb" secondAttribute="centerY" id="PYA-EH-lA5"/>
+                                <constraint firstAttribute="width" constant="42" id="dvX-Eg-XuU"/>
+                                <constraint firstAttribute="height" constant="42" id="eBn-Eh-Dto"/>
+                                <constraint firstItem="WKu-gG-1Ru" firstAttribute="centerX" secondItem="Rdj-0C-Snb" secondAttribute="centerX" id="r48-OY-jUb"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OR5-af-4o1" customClass="UIButton">
+                            <rect key="frame" x="110" y="20" width="42" height="42"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52h-q5-JPd">
+                                    <rect key="frame" x="13.666666666666671" y="8.333333333333373" width="15" height="25.666666666666671"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="ic_maker_b.png"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="EMp-Dw-RyI"/>
+                                <constraint firstItem="52h-q5-JPd" firstAttribute="centerY" secondItem="OR5-af-4o1" secondAttribute="centerY" id="Ejb-0f-grd"/>
+                                <constraint firstItem="52h-q5-JPd" firstAttribute="centerX" secondItem="OR5-af-4o1" secondAttribute="centerX" id="KpG-aV-inV"/>
+                                <constraint firstAttribute="width" constant="42" id="z2f-rw-flj"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uY7-Oj-87I" customClass="UIButton">
+                            <rect key="frame" x="190" y="20" width="42" height="42"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXf-Sq-2jD">
+                                    <rect key="frame" x="13.666666666666657" y="8.333333333333373" width="15" height="25.666666666666671"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="ic_maker_c.png"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="ARC-cm-k9I"/>
+                                <constraint firstItem="hXf-Sq-2jD" firstAttribute="centerY" secondItem="uY7-Oj-87I" secondAttribute="centerY" id="CfV-pq-nl2"/>
+                                <constraint firstAttribute="height" constant="42" id="XC3-oy-Dsx"/>
+                                <constraint firstItem="hXf-Sq-2jD" firstAttribute="centerX" secondItem="uY7-Oj-87I" secondAttribute="centerX" id="vnJ-Hi-5Bn"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" fixedFrame="YES" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="dfR-er-vND">
+                            <rect key="frame" x="0.0" y="-44" width="428" height="105"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="uY7-Oj-87I" firstAttribute="leading" secondItem="Rdj-0C-Snb" secondAttribute="leading" constant="160" id="XbQ-Nf-J3s"/>
+                        <constraint firstItem="Rdj-0C-Snb" firstAttribute="leading" secondItem="uc9-7I-vXE" secondAttribute="leading" constant="30" id="cJy-C0-6a2"/>
+                        <constraint firstItem="OR5-af-4o1" firstAttribute="leading" secondItem="Rdj-0C-Snb" secondAttribute="leading" constant="80" id="k1X-kf-0CT"/>
+                    </constraints>
+                </view>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="多场景风格" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6x-cZ-cuF">
+                    <rect key="frame" x="20" y="801" width="87" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="I6x-cZ-cuF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="1n8-cf-hNV"/>
+                <constraint firstItem="uc9-7I-vXE" firstAttribute="top" secondItem="I6x-cZ-cuF" secondAttribute="bottom" constant="90" id="L76-rP-dFe"/>
+                <constraint firstItem="uc9-7I-vXE" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-30" id="eFG-sa-DPo"/>
+            </constraints>
+            <connections>
+                <outlet property="duochangjingfengge" destination="I6x-cZ-cuF" id="vGj-Gw-q0h"/>
+                <outlet property="styleList" destination="dfR-er-vND" id="TSy-bG-Vs6"/>
+                <outlet property="toBFather" destination="Rdj-0C-Snb" id="vfV-m0-Phv"/>
+                <outlet property="toCFather" destination="OR5-af-4o1" id="0RN-ET-Hsm"/>
+                <outlet property="toGFather" destination="uY7-Oj-87I" id="MxS-fw-X79"/>
+            </connections>
+            <point key="canvasLocation" x="137.38317757009344" y="122.46220302375811"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_maker_b.png" width="15" height="25.666666030883789"/>
+        <image name="ic_maker_c.png" width="15" height="25.666666030883789"/>
+        <image name="ic_maker_g.png" width="15" height="25.666666030883789"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 3675544892
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 38f160fc4e46f5e69ad216b05e7cc67d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6c93a7d68d290e6528211c6fed75824a
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 38f160fc4e46f5e69ad216b05e7cc67d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 328
+  Script: {instanceID: 0}
+- Class: 329
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Common/Prefabs/office/office.prefab
+Dependencies: []
